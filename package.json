@@ -1,0 +1,29 @@
+{
+  "name": "highfive-client",
+  "version": "0.0.1",
+  "description": "High Five DHS FLASH client-side source code",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "prestart": "npm install --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielpartners/highfive-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arielpartners/highfive-client/issues"
+  },
+  "homepage": "https://github.com/arielpartners/highfive-client#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0"
+  },
+  "engines": {
+    "node": "6.3.1"
+  }
+}
