@@ -9,7 +9,21 @@
 </head>
 <body>
 
-<p>Hello world!</p>
+<p>Making API call to http://ariel-highfive-api.azurewebsites.net/api/values ...</p>
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        $
+            .get('http://ariel-highfive-api.azurewebsites.net/api/values')
+            .then(function(values) {
+                document.body.innerHTML += 'Server Says: ' + values;
+            });
+    });
+</script>
 
 </body>
 </html>
