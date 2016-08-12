@@ -1,0 +1,1 @@
+throw new Error('Sample Test Failure');

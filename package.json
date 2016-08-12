@@ -4,8 +4,12 @@
   "description": "High Five DHS FLASH client-side source code",
   "main": "app.js",
   "scripts": {
-    "start": "node .",
-    "prestart": "npm install --production"
+    "start": "node app",
+    "prestart": "build",
+    "build": "node build",
+    "prebuild": "npm install",
+    "test": "node test",
+    "pretest": "npm build"
   },
   "repository": {
     "type": "git",
